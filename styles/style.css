@@ -28,6 +28,7 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
 }
 .player{
     display: flex;
@@ -43,4 +44,33 @@ main{
 }
 hr{
     border: 1px solid #D1D1D1;
+}
+
+/* top blogs-style */
+
+.blogs{
+    display: flex;
+    align-items: flex-start;
+}
+
+.top-blogs h2{
+    margin-top: 22px;
+}
+.blogs .thumnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-info .blog-title {
+    font-size: 20px;
+}
+.blog-info .blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-info .blog-author a{
+    text-decoration: none;
+    color: #562EFF;
 }

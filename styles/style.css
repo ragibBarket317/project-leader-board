@@ -19,6 +19,37 @@ main{
     margin-top: 20px;
 }
 
+/* Main-Menu */
+.top-part{
+    background-color: #FF4A60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-color{
+    margin-top: 0;
+    background-color: #FF4A60;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    height: 50px;
+}
+.main-nav a{
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 36px;
+    color: white;
+}
+.profile {
+    font-size: 24px;
+}
+
 /* top players */
 .top-players{
     margin-bottom: 22px;
@@ -127,8 +158,16 @@ hr{
 
 @media only screen and (max-width: 480px) {
     .container{
-        width: 100%;
+        width: 80%;
     }
+    .main-nav{
+        align-items: center;
+    }
+    .manu-bar a {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
     h2,h3,p{
         text-align: center;
     }
